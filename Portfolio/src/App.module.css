@@ -1,0 +1,7 @@
+@import "./vars.css";
+
+.App{
+    background-color: var(--color-bg);
+
+    color:hsl(0, 0%, 45%);
+}

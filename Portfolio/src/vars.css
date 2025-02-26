@@ -1,0 +1,24 @@
+:root {
+    /* Colors */
+    --color-text: rgba(234, 224, 242, 1);
+    --color-primary: rgba(152, 84, 203, 1);
+    --color-secondary: rgba(89, 51, 146, 1);
+    --color-dark: rgba(40, 16, 78, 1);
+    --color-bg: rgb(21, 0, 36);
+
+    /* Fonts */
+    --font-roboto: "Roboto";
+    --font-outfit: "Outfit";
+    --font-popins: "Poppins";
+    --font-gothic: "Century Gothic";
+
+
+    /* CSS HSL */
+    --russian-violet: rgb(37, 0, 71);
+    --rebecca-purple: rgb(103, 51, 148);
+    --royal-purple: rgb(136, 78, 188);
+    --amethyst: rgb(169, 101, 226);
+    --white: rgb(255, 255, 255);
+
+}
+
