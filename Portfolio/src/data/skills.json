@@ -1,0 +1,34 @@
+[
+    {
+        "title": "Python",
+        "imageSrc": "python.png"
+    },
+    {
+        "title": "Java",
+        "imageSrc": "java.png"
+    },
+    {
+        "title": "React",
+        "imageSrc": "science.png"
+    },
+    {
+        "title": "Node JS",
+        "imageSrc": "programing.png"
+    },
+    {
+        "title": "C",
+        "imageSrc": "c.png"
+    },
+    {
+        "title": "Springboot",
+        "imageSrc": "icons8-spring-boot-480.png"
+    },
+    {
+        "title": "Javascript",
+        "imageSrc": "js.png"
+    },
+    {
+        "title": "mongodb",
+        "imageSrc": "mongodb.png"
+    }
+]

@@ -1,0 +1,129 @@
+@import '../../vars.css';
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background:linear-gradient(
+        180deg, 
+        rgba(40, 16, 78, 0.2) 0%, 
+        rgba(40, 16, 78, 1) 100%
+    );
+    box-shadow: 0 16px 14px 0 rgba(0, 0, 0, 0.2);
+    padding: 18px 24px;
+    max-width: 40%;
+}
+
+.image {
+    margin-bottom: 26px;
+}
+
+.title {
+    font-size:25px;
+    font-weight: 700;
+}
+
+.description {
+    margin-top: 6px;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 6px;
+}
+
+.skills {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 14px;
+    align-items: center;
+    justify-content: center; /* Center skills horizontally */
+    gap: 6px;
+    list-style: none;
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 80%;
+        padding: 16px 20px;
+    }
+
+    .title, .description, .skill, .link {
+        font-size: 20px;
+    }
+    
+    .skills {
+        padding: 0 10px; /* Add some horizontal padding in mobile */
+        width: auto; /* Allow container to determine width */
+        max-width: 100%; /* Prevent overflow */
+    }
+
+    .links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .link {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        max-width: 100%;
+        padding: 14px 18px;
+    }
+
+    .title, .description, .skill, .link {
+        font-size: 18px;
+    }
+    
+    .skills {
+        padding: 0 5px; /* Smaller padding for very small screens */
+    }
+
+    .links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .link {
+        margin-bottom: 8px;
+    }
+}
+
+.skill {
+    font-size: 25px;
+    font-weight: 400;
+    border-radius: 100px;
+    background: rgb(41, 16, 82);    
+    padding: 2px 22px;
+    white-space: nowrap; /* Prevent text wrapping within skill item */
+    margin: 2px; /* Add small margin to prevent touching */
+}
+
+.links {
+    width: 100%;
+    margin-top: 26px;
+    display:flex;
+    justify-content: space-around;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--color-text);
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 100px;
+    background: var(--rebecca-purple);
+    padding: 1px 22px;
+    transition: 0.7s;
+}
+
+.link:hover {
+    background-color: var(--amethyst);
+    color:var(--color-bg);
+}

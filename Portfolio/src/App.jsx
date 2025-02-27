@@ -2,6 +2,8 @@ import styles from "./App.module.css";
 import {Navbar} from "./componets/Navbar/Navbar";
 import {Hero} from "./componets/Hero/Hero";
 import {About} from "./componets/About/About";
+import {Experiences} from './componets/Experiences/Experiences';
+import {Projects} from './componets/Projects/Projects';
 
 function App() {
   
@@ -11,7 +13,8 @@ function App() {
         <Navbar />
         <Hero />
         <About />
-        {/* <Experiences /> */}
+        <Experiences />
+        <Projects />
       </div>
     </>
   )

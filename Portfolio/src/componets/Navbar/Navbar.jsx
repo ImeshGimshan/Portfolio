@@ -23,6 +23,9 @@ export const Navbar = () => {
                         <a href='#about' className={styles.link}>About</a>
                     </li>
                     <li>
+                        <a href='#exp' className={styles.link}>Skills</a>
+                    </li>
+                    <li>
                         <a href='#projects'className={styles.link}>Projects</a>
                     </li>
                     <li>

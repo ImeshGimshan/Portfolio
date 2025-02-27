@@ -1,0 +1,16 @@
+[
+    {
+        "title": "Project 1",
+        "description": "Caffiene Brew Web Application",
+        "skills": ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
+        "image": "cafbrew.png",
+        "Repository": "https://github.com/ImeshGimshan/Web-Project.git"
+    },
+    {
+        "title": "Project 2",
+        "description": "Personal Portfolio",
+        "skills": ["HTML", "CSS", "JavaScript", "React", "Node.js"],
+        "image": "portfolio.png",
+        "Repository": "https://github.com/ImeshGimshan/Portfolio.git"
+    }
+]

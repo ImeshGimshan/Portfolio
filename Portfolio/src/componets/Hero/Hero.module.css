@@ -105,28 +105,28 @@
 .topGlare {
     position: absolute;
     top: -128px;
-    left: -10vw;
+    left: -15vw;
     width: 50vw;
     height: 50vw;
     min-width:350px;
     min-height:350px;
     border-radius: 764px;
     background: rgba(100, 55, 160, 0.30);
-    filter:blur(100px);
+    filter:blur(200px);
     z-index: 0;
 }
 
 .bottomGlare{
     position: absolute;
     top: 246px;
-    right:-25vw;
+    right:-0vw;
     width: 70vw;
     height: 50vw;
     min-width:350px;
     min-height:250px;
     border-radius: 764px;
     background: rgba(152, 84, 203, 0.20);
-    filter:blur(100px);
+    filter:blur(200px);
     z-index: 0;
 }
 

@@ -1,6 +1,7 @@
 @import "../../vars.css";
 
 .navbar {
+    
     position: relative;
     display: flex;
     align-items: center;
